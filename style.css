@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+body > header {
+    color: rgb(255, 255, 255);
+    padding: 16px 0;
+    background-color: rgb(249, 71, 55);
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a {
+    color: rgb(243, 239, 239);
+    text-decoration: none;
+}
+
+header .cabe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+}
+.cabe {
+    width: 1280px;
+    margin: 0 auto;
+}
+.art {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.art article img {
+    height: 170px;
+    width: 300px;
+}
+
+.art article {
+    width: 20%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.art article {
+    margin-bottom: 16px;
+}
+
+.art article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+.art article a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.art article a:hover {
+    text-decoration: underline ;
+}
+
+.art article p,
+.art article a {
+    font-family: 'Noto Serif', serif;
+}
+
+#Macetes {
+    background-color: rgb(206, 236, 97);
+}
+#Novidades {
+    background-color: rgb(87, 128, 199);
+}
+#Promoções {
+    background-color: rgb(80, 186, 78);
+}
+
+#Eventos {
+    background-color: rgb(206, 114, 205);
+}
