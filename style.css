@@ -63,7 +63,6 @@ section h2,
 }
 .art article a {
     text-decoration: none;
-    color: blue;
     font-weight: bold;
     margin-top: 4px;
 }
@@ -89,4 +88,19 @@ section h2,
 
 #Eventos {
     background-color: rgb(206, 114, 205);
+}
+
+#Macetes a {
+    color: rgb(165, 136, 5);
+}
+#Novidades a {
+    color: rgb(25, 4, 77);
+}
+
+#Promoções a {
+    color: rgb(6, 83, 3);
+}
+
+#Eventos a {
+    color: rgb(53, 3, 38) ;
 }
